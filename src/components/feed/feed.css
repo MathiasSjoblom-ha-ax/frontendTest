@@ -1,0 +1,140 @@
+.container {
+    background-color: #112b2b;
+    margin-left: 350px;
+    margin-right: 350px;
+	border: 1px solid white;
+	min-height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Abel');
+.titleText{
+    font-family: Abel, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(69, 189, 50);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+
+.completedText {
+	font-family: Abel, sans-serif;
+    text-align: center;
+	color: rgb(69, 189, 50);
+}
+
+.contentList {
+	margin-left: 250px;
+	margin-right: 250px;
+	align-items: center;
+}
+
+.itemContainer {
+	margin-top: 10px;
+	border-radius:10px;
+	border:2px solid Black;
+	padding:10px;
+}
+
+.addButton {
+    margin-left: 10px;
+	box-shadow:inset 0px 0px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border-radius:10px;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:14px;
+	font-weight:bold;
+	padding:9px 13px;
+	text-decoration:none;
+}
+.addButton:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.addButton:active {
+	position:relative;
+	top:1px;
+}
+
+.clearButton {
+    margin-top: 20px;
+	box-shadow:inset 0px 0px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border-radius:10px;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:14px;
+	font-weight:bold;
+	padding:9px 13px;
+	text-decoration:none;
+}
+.clearButton:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.clearButton:active {
+	position:relative;
+	top:1px;
+}
+
+.removeButton {
+	margin-left: 20px;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:4px 7px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.removeButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.removeButton:active {
+	position:relative;
+	top:1px;
+}
+
+.deleteButton {
+	cursor: pointer;
+	font-size: 30px;
+	color: red;
+}
+
+.checkButton {
+	cursor: pointer;
+	font-size: 30px;
+	margin-left: 10px;
+	color: green;
+}
+
+.taskText {
+	font-family: Abel, sans-serif;
+	color: rgb(69, 189, 50);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+	font-size: 20px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.userInput {
+	border-radius: 10px;
+	outline: none;
+	font-size: 20px;
+	color: black;
+}
